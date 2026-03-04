@@ -57,7 +57,7 @@ int main()
 		cout << "1.HP UP / 2.MP UP / 3.공격력 UP / 4.방어력 UP / 5.현재 능력치 / 6.Level Up / 0.나가기" << endl;
 		if (!(cin >> menu))
 		{
-			menu = 7;			// 입력 시 문자가 들어가면 menu에 0값이 들어가 나가기 되어버림. 임의로 숫자 7 대입.
+			menu = 7;			// 입력 시 문자가 들어가면 menu에 0이 들어가 나가기 되어버림. 임의로 숫자 7 대입.
 		}
 		switch (menu)
 		{
